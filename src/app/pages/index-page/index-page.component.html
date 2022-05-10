@@ -1,0 +1,19 @@
+<main class="scene container-fluid {{time? 'play-scene' : 'pause-scene'}}" (window:resize,window:orientationchange)="onResize($event)">
+    <app-header class="header-wrap {{time? 'header-wrap_inverse' : ''}}" *ngIf="progress == 100" @fadeIn></app-header>
+    <app-timer-page  class="container-fluid p-0" *ngIf="time" [maxtime]="time" [unit]="unit" @pagePullDown
+     (@pagePullDown.start)="animationStarted($event)" (onQuitGame)="quitGame()"></app-timer-page>
+    <app-loader-page class="container p-0" *ngIf="!time" (onStart)="startTimer($event)" @pagePushDown></app-loader-page>
+    <app-footer @fadeIn></app-footer>
+    <div class="alert-message">
+      <div class="alert-message__body">
+        <div class="alert-message__mobile">
+          <h1 class="alert-message__text">Please turn<br>your device</h1>
+          <img src="assets/images/ic_turndevice.svg" alt="turn your device" class="alert-message__image">
+        </div>
+        <div class="alert-message__old-browser">
+          <h1 class="alert-message__text">Your browser<br>is outdated</h1>
+          <img src="assets/images/ic_outdated.svg" alt="outdated browser" class="alert-message__image">
+        </div>
+      </div>
+    </div>
+</main>

@@ -1,0 +1,12 @@
+<ng-template *ngIf="type=='link';then link; else button"></ng-template>
+<ng-template #link>
+  <button class="button {{classes}}" [attr.data-link]=routLink  (click)="onClickButton()">{{label}}
+    <span *ngIf="icon" class="{{iconClass}}"></span>
+  </button>
+</ng-template>
+<ng-template #button>
+  <button type="button" class= "button {{classes}}" (click)="onClickButton()">{{label}}
+      <span *ngIf="icon"  class="{{iconClass}}"></span>
+  </button>
+</ng-template>
+

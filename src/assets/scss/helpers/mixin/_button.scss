@@ -1,0 +1,103 @@
+@mixin animated-button($color, $background, $border-color, $border: false, $gradient: false, $solid: false, $hover-color: black) {
+    display: inline-block;
+    padding: $padding-default/1.5 $padding-default * 1.5;
+    border: 2px solid $border-color;
+    color: $color;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: $font-size-default;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    @include media-query(xl) {
+        font-size: $font-size-default +2;
+        padding: $padding-default+2 $padding-default * 2;
+    }
+    @include transitions($duration: .2s);
+    &::before {
+        content: '';
+        position: absolute;
+        @if $gradient==true {
+            @include gradient-horizontal();
+        }
+        @else {
+            background: $background;
+        }
+        @if $border==true {
+            width: 0;
+        }
+        @else {
+            width: calc(100% + 4px);
+        }
+        left: -2px;
+        top: -2px;
+        bottom: -2px;
+        z-index: -1;
+        @include transitions($duration: .2s);
+    }
+    &:focus,
+    &:active {
+        outline: 0;
+    }
+    &:hover {
+        outline: 0;
+        @if $border {
+            &::before {
+                width: calc(100% + 4px);
+            }
+            @if $gradient {
+                border-color: $color-ruby;
+            }
+        }
+        @else {
+            &::before {
+                width: 0;
+            }
+        }
+        @if $gradient {
+            color: $color;
+            @if $border==false {
+                border-color: $color;
+            }
+        }
+        @else {
+            color: $hover-color;
+        }
+    }
+}
+
+// Button sizes
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+    padding: $padding-vertical $padding-horizontal;
+    font-size: $font-size;
+    line-height: $line-height;
+    border-radius: $border-radius;
+}
+
+//   placeholder mixins
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content
+    }
+    &:-moz-placeholder {
+        @content
+    }
+    &::-moz-placeholder {
+        @content
+    }
+    &:-ms-input-placeholder {
+        @content
+    }
+}

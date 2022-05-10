@@ -1,0 +1,52 @@
+<div class="timer">
+  <div class="timer__banner" [ngStyle]="bannerHeight ? {'fontSize': bannerHeight + 'px'} : null" [ngClass] = "{'MobileLayout' : bannerMobileLayout}" (window:resize)="onResize($event)" #banner [@bannerState]="waitstatus">
+    <div class="timer__banner_bg"></div>
+    <div class="timer__section" [@timerState]="pausePopupShow ? 'hide' : 'default'">
+      <div class="w-100">
+        <div class="participant-wrap">
+          <h1 class="participant" *ngIf="participant && participant.active" [@swipeState]="participant.id === 1 ? 'down' : participant.id">PARTICIPANT #{{participant.id}}</h1>
+        </div>
+        <div class="timer__counter clock" *ngIf="participant" [@counterState]="participant.id === 1 ? 'ready' : participant.id"
+        [innerHTML]="participant.id == 1 ? ( ready ? '<span class=\'clock__min\'>'+participant.min+'</span><span class=\'clock__seperator\'>:</span><span class=\'clock__sec\'>'+participant.sec+'</span>' : 'READY') : (clockPause && !pausePopupShow) ? 'NEXT' :'<span class=\'clock__min\'>'+participant.min+'</span><span class=\'clock__seperator\'>:</span><span class=\'clock__sec\'>'+participant.sec+'</span>'"></div>
+      </div>
+      <app-toast-waiting class="timer__charecter" label="wait1" #sprite fps="15" #toastwaiting
+        (onreset)="onToastReset()" (onready)="onToastReady()"></app-toast-waiting>
+    </div>
+  </div>
+  <div class="participant-dashboard">
+    <div class="daily-controller"  [@scaleUp]="pausePopupShow ? 'hide' : 'default'">
+      <button class="button button_primary button-pause {{clockHour !== '00'?'button-timer':''}}" (click)=pause()>
+        <span class="button__text">TEAM</span>
+        <span class="button__time">{{clockCounter | hourhide }}</span>
+        <span class="icon icon-pause"></span>
+      </button>
+
+      <app-button [type]='["button"]' [classes]='["button-icon button-next"]' [icon]='[true]' iconClass="icon icon-next"
+        (onClick)="nextParticipant()" [btnSound]='["Button-Up.mp3"]' *ngIf="shownextbutton" @scaleUp></app-button>
+    </div>
+    <div>
+        <div class="participant-message" [@pMessageState]="pausePopupShow ? 'hide' : 'default'" *ngIf="showmesage">{{maxtime | hourhide}} {{unit}} per participant<br>Don't burn your
+          toast!</div>
+        <div class="participant-list">
+          <ng-container *ngFor="let participant of (partcipents | slice: -8)">
+            <div class="participant-list__item person" [@scaleUp]="pausePopupShow ? 'hide' : 'default'">
+              <div class="person__toast">
+                <img [assetloader]="participant.bread" alt="" class="person__image">
+              </div>
+              <div class="person__summery">
+                <span class="person__id">#{{participant.id}}</span><span class="person__time">{{participant.counter | hourhide:true}}
+                </span>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<app-pause [show]="pausePopupShow" (onResume)="resumeTimer()" [participants]="partcipents" [maxtime]="maxtime"
+[participant]="participant"
+  [elapsedtime]="clockCounter"
+(onQuit)="quitGame()"
+  ></app-pause>

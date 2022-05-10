@@ -1,0 +1,9 @@
+.scene{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

@@ -1,0 +1,139 @@
+.map-card{
+    @include flexbox();
+    background: $color-white;
+    &__head{
+        width: 168px;
+        min-width: 168px;
+        position: relative;
+        background-color: $background-primary;
+        &::before{
+            content: '';
+            display: block;
+            padding-top: 108%;
+        }
+    }
+    &__img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        @include object-fit();
+    }
+    &__body{
+        @include flex-grow(1);
+        @include flexbox();
+        @include flex-direction(column);
+        padding: 30px 0px 12px 0px;
+    }
+    &__date{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: $color-white;
+        min-width: 72px;
+        min-height: 72px;
+        @include flexbox();
+        @include flex-direction(column);
+        @include justify-content(center);
+        text-align: center;
+        padding: 0 10px;
+        font-family: $font-family-secondary;
+    }
+    &__dd{
+        display: block;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 0.13px;
+        line-height: 1;
+    }
+    &__mm{
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1.3px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    &__place{
+        color: rgba(34,34,34,0.5);
+        font-family: $font-family-secondary;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.75px;
+        line-height: 14px;
+        margin-bottom: 7px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    &__title{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 7px;
+        width: 100%;
+        font-weight: normal;
+        @include flex-grow(1);
+        padding: 0 20px;
+    }
+    &__footer{
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 12px;
+        @include flexbox();
+        .un-btn-link{
+            @include flex(1 0 auto);
+            padding: 9px 0;
+            min-width: 50%;
+            color: $color-primary;
+            &:not(:first-child) {
+                border-left: 1px dotted $color-black; 
+            }
+            &:hover{
+                color: $color-black;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        @include flex-direction(column);
+        max-width: 75vw;
+        width: 274px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
+        position: relative;
+        margin-bottom: 20px;
+        height: unset;
+        &__head{
+            width: 100%;
+            &::before{
+                padding-top: 155px;
+            }
+        }
+        &__date{
+            min-width: 54px;
+            min-height: 57px;
+            bottom: unset;
+            top: 0;
+        }
+        &__dd{
+            font-size: 24px;
+            letter-spacing: 0.1px;
+        }
+        &__mm{
+            font-size: 12px;
+            letter-spacing: 0.86px;
+        }
+        &__title{
+            margin-bottom: 25px;
+        }
+        &__footer{
+            .un-btn-link{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.slick-initialized {
+    .map-card{
+        @include flexbox();
+    }
+}

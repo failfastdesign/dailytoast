@@ -1,0 +1,18 @@
+.sprite{
+  margin: auto;
+  width: 54%;
+  position: relative;
+  &::before{
+    content: '';
+    display: block;
+    padding-top: 186.6666667%;
+  }
+  &__canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+}

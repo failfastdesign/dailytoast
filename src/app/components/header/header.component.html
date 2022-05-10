@@ -1,0 +1,11 @@
+<div class="header">
+    <div class="header__toolbar">
+        <app-button [type]='["link"]' [btnSound]='["Button-Down.mp3"]' [classes]='["button-icon button-icon_lite button-about"]' [icon]='[true]' [iconClass]='["icon-about"]' [routLink]='["/about"]' *ngIf = "router != '/about'" (onClick)=routerLink($event)></app-button>
+        <!-- <app-button [type]='["link"]' [classes]='["button-icon button-icon_lite button-about"]' [icon]='[true]' [iconClass]='["icon-about"]' [routLink]='["about"]' *ngIf = "router != '/about'" ></app-button> -->
+        <app-button [type]='["link"]' [btnSound]='["Button-Down.mp3"]' [classes]='["button-icon button-icon_lite"]' [icon]='[true]' [iconClass]='["icon-home"]'  [routLink]='["/"]' *ngIf = "router == '/about'" (onClick)=routerLink($event)></app-button>
+
+        <app-button [type]='["button"]' [classes]='["button-icon button-icon_lite"]' [btnSound]='[this.isSound?"Button-Up.mp3":"Button-Down.mp3"]' [icon]='[true]' [iconClass]='[this.isSound?"icon-soundon":"icon-soundoff"]'  (onClick)=soundSwitch($event)></app-button>
+    </div>
+</div>
+
+

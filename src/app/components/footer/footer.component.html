@@ -1,0 +1,17 @@
+<div class="footer" *ngIf = "router != '/about'">
+  <div class="footer__logo">
+    <a class="logo-link" href="https://www.failfast.design/" target="_blank"><img  src="assets/images/bt_failfast.svg" alt="logo" class="footer__logo-image"></a>
+  </div>
+</div>
+<div class="footer-about" *ngIf = "router == '/about'">
+  <div class="footer-about__logo">
+    <a class="logo-link" href="https://www.failfast.design/" target="_blank"><img  src="../../../assets/images/about/bt_failfast_title.svg" alt="logo" class="footer-about__logo-image"></a>
+  </div>
+  <div class="footer__idea">
+    <span>original idea by</span>
+    MARC MORERA
+  </div>
+  <div class="footer__copy">
+    FAIL FAST ©2020 All rights reserved.
+  </div>
+</div>

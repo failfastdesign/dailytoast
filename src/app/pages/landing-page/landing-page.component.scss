@@ -1,0 +1,10 @@
+@import '../../../assets/scss/vendor/bootstrap/scss/bootstrap.scss';
+.home{
+    position: relative;
+    min-height: 100vh;
+    @include media-breakpoint-down(md) {
+        .header-wrap{
+            display: none;
+        }
+    }
+}

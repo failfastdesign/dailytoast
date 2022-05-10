@@ -1,0 +1,81 @@
+.footer{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 0;
+  z-index: 3;
+  @include media-breakpoint-down(sm) {
+    position: fixed;
+  }
+  &__logo{
+    padding: 20px;
+    width: 151px;
+    padding-top: 0;
+    &-image{
+      width: 110px;
+    }
+
+  }
+  &-about{
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+    background-color: $background-loader;
+    padding: 50px 0;
+    &__logo{
+        margin-bottom: 20px;
+        margin-right: auto;
+        padding: 0;
+        &-image{
+            min-height: 17px;
+            width: auto;
+        }
+    }
+  }
+  &__idea{
+    font-size:  $font-size-default;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 17px;
+    color: $color-sub-title;
+    margin-right:auto;
+    margin-bottom: 20px;
+    span{
+        display: block;
+        font-weight: 100;
+    }
+  }
+  &__copy{
+    font-size:  $font-size-default;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 17px;
+    color: $color-sub-title;
+    margin-right:auto;
+  }
+  @include media-breakpoint-down(md) {
+    &-about{
+      padding:50px 15px;
+      &__logo{
+        margin-left: 0;
+      }
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    left: 0;
+    right: 0;
+    &__logo{
+      padding: 5px;
+      margin: auto;
+      width: 121px;
+    }
+  }
+}
+.logo-link{
+  &:hover{
+    opacity: 0.3;
+  }
+  &:active{
+    opacity: 0.3;
+  }
+}

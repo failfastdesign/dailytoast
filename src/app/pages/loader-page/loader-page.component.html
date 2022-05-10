@@ -1,0 +1,42 @@
+<div class="loader">
+    <div class="loader__banner">
+      <div>
+        <div class="loader__head" [@quoteState]="quoteindex" *ngIf="progress != 100" @fadeIn @fadeOut>
+          <h1 class="loader__title">{{quotes[quoteindex]}}</h1>
+        </div>
+      </div>
+
+      <div class="toast-logo"  [@fadeIn]="'withdelay'" *ngIf="progress == 100">
+        <img assetloader="gameLogo" alt="" class="toast-logo__image">
+      </div>
+      <app-zen [@fadeIn]="progress == 100 ? 'nofade' : ''"></app-zen>
+    </div>
+    <div class="time-selector">
+      <h2 class="time-selector__title" *ngIf="!isLoaderbar" [@fadeIn]="'withdelay'">SET TIME PER PARTICIPANT</h2>
+      <div class="loader__bar" @fadeIn>
+        <div class="loader__track" [style]="'width:'+progress+'%'" *ngIf="isLoaderbar" @progressFadeState></div>
+        <!-- <div class="loader__track" [style]="'width:'+progress+'%'" *ngIf="progress != 100" @progressFadeState></div> -->
+        <div class="time-selector__content" *ngIf="!isLoaderbar"  [@fadeIn]="'withdelay'">
+          <app-button [type]='["button"]' [btnSound]='["Button-Down.mp3"]' [classes]='["button-icon button-icon_down"]' [icon]='[true]' data-direction="down"
+            [iconClass]='["icon-prev"]' (onClick)=setTimer($event)></app-button>
+          <div class="time-selector__time">{{timerText | hourhide}} {{timerIndex == 0 ? 'Sec' : 'Min'}}</div>
+          <app-button [type]='["button"]' [btnSound]='["Button-Up.mp3"]' [classes]='["button-icon button-icon_up"]' data-direction="up" [icon]='[true]'
+            [iconClass]='["icon-prev"]' (onClick)=setTimer($event)></app-button>
+        </div>
+      </div>
+      <app-button *ngIf="!isLoaderbar"
+      [btnSound]='["Button-Big.mp3"]'
+      [label]='["START DAILY "]'
+      [type]='["button"]'
+      [classes]='["button_primary"]'
+      [icon]='[true]'
+      [iconClass]='["icon", "icon-play"]'
+      (onClick)=startDaily()
+      [@fadeIn]="'fadeinup'"></app-button>
+        <!-- <div class="tagline" *ngIf="isLoaderbar && progress==100" @progressFadeState>
+          <h2 class="tagline__text">original idea by <span class="tagline__credit">Marc morera</span></h2>
+        </div> -->
+    </div>
+</div>
+
+

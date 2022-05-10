@@ -1,0 +1,51 @@
+.time-selector{
+  // margin: auto;
+  width: 100%;
+  max-width: 290px;
+  height: 224px;
+  text-align: center;
+  position: relative;
+  z-index: 7;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  overflow: hidden;
+  &__content{
+    display: flex;
+    flex-direction: row;
+  }
+  &__title{
+    color: $color-text-secondary;
+    font-family: $font-family-primary;
+    @include rem(font-size, 16px);
+    @include rem(line-height, 27px);
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    @include media-breakpoint-down(sm) {
+    }
+  }
+  &__time{
+    color: #6C3D72;
+    font-family: $font-family-primary;
+    @include rem(font-size, 25px);
+    font-weight: bold;
+    letter-spacing: 0;
+    @include rem(line-height, 30px);
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .button-icon{
+    margin: 2.5px;
+  }
+  .button_primary{
+    margin: auto;
+    margin-top: 20px;
+  }
+}

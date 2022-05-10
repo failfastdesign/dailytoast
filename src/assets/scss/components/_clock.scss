@@ -1,0 +1,19 @@
+.clock{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  &__min{
+    display: block;
+    text-align: right;
+    flex-basis: 100%;
+  }
+  &__separator{
+    display: block;
+    justify-self: center;
+  }
+  &__sec{
+    display: block;
+    text-align: left;
+    flex-basis: 100%;
+  }
+}

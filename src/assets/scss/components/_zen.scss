@@ -1,0 +1,33 @@
+.zen{
+    // max-width: 196px;
+    height: 36%;
+    align-self: end;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9;
+    text-align: center;
+    @include media-breakpoint-down(sm) {
+        // max-width: 135px;
+    }
+    &__wrap{
+      height: 100%;
+    }
+    &__image{
+        height: 100%;
+        animation: slideVertical 3s ease-in-out infinite;
+    }
+
+    &__shadow{
+        max-height: 15px;
+        width: 164px;
+        margin: auto;
+        margin-top: 4px;
+        animation: shadow 1.5s ease-in-out 0.75s infinite;
+        @include media-breakpoint-down(sm) {
+            width: 112px;
+        }
+    }
+}

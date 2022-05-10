@@ -1,0 +1,54 @@
+.title {
+    &_primary {
+        font-size: $font-size-primary;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 50px;
+    }
+    &_secondary {
+        @extend .title;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.16px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    &_large {
+        @extend .title;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 50px;
+        margin-bottom: 0;
+        &_m-b {
+            margin-bottom: 47px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .title {
+        &_l-hidden {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .title {
+        &_primary {
+            letter-spacing: 0.18px;
+            line-height: 18px;
+            font-size: 18px;
+        }
+        &_large {
+            font-size: 28px;
+            line-height: 38px;
+            &_m-b {
+                margin-bottom: 40px;
+            }
+        }
+        &_m-hidden {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@mixin columns($count: 4, $gap: $spacer * 2) {
+    -moz-column-count: $count;
+    -moz-column-gap: $gap;
+    -webkit-column-count: $count;
+    -webkit-column-gap: $gap;
+    column-count: $count;
+    column-gap: $gap;
+}

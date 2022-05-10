@@ -1,0 +1,1280 @@
+{
+	"textures": [
+		{
+			"image": "toast-wait3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 3624,
+				"h": 2810
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Toast-R-Wait2100.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2101.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2102.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2103.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2104.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2105.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2106.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2107.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2108.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2109.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2110.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2111.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2112.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2113.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2114.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2115.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2116.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2117.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2118.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2119.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2120.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2121.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2123.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2124.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2125.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2126.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2127.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2128.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2129.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2130.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2131.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2132.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2133.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2134.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2135.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2136.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2137.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2138.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2139.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2140.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2141.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2142.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2143.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2144.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 563,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2145.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2146.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2147.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2148.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2149.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2150.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2151.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2152.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2153.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 1125,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2154.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2155.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2156.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2157.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2158.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 1687,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-R-Wait2159.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 2249,
+						"w": 300,
+						"h": 560
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6917e3260d34fe81a3f4dee9378fa9dc:ae9eb53c93667a7ce0060be1580fb0d3:26ec576629ad32b311477e4ebb7194f9$"
+	}
+}

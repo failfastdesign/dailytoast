@@ -1,0 +1,86 @@
+// Color system
+// color names are auto generated in http://www.color-blindness.com/color-name-hue/
+$white: #fff !default;
+$theme-black: #333333 !default;
+$white-smoke: #F9F9F9 !default;
+$lite-magenta: #F5ABF9 !default;
+$magenta: #CE81D9 !default;
+$pale-sky: #9B9B9B !default;
+$color-white: $white !default;
+$color-black: $theme-black !default;
+$color-primary: $lite-magenta !default;
+$color-secondary: $pale-sky !default;
+$color-title: #6C3D72 !default;
+$cyan: #23d7c5 !default;
+$wild-watermelon: #FF6A74 !default;
+$color-sub-title: $magenta !default;
+// background
+$background-primary: $color-white !default;
+$background-loader: #FDF0FF !default;
+$color-loader: $lite-magenta !default;
+$color-button: $magenta !default;
+$color-text-secondary: #6C3D72  !default;
+// border
+$color-border: rgba(255, 255, 255, 0.2);
+// Gradient colors
+// Padding and margin
+// $spacer:18px;
+$spacer-sm:12.5px;
+$padding: 18px;
+$padding-default: $padding;
+$padding-fluid-grid: 100px;
+$padding-fluid-grid-m: $padding-default;
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+// stylelint-disable value-keyword-case
+$font-family-open-sans: 'Open Sans',
+sans-serif !default;
+$font-family-urbane: 'urbane-rounded',
+sans-serif !default;
+$font-family-montserrat: 'Montserrat', sans-serif !default;
+
+$font-family-default: $font-family-open-sans !default;
+$font-family-primary: $font-family-urbane !default;
+$font-family-secondary: $font-family-montserrat !default;
+// $font-family-secondary: $font-family-mont !default;
+// $font-family-tertiary: $font-family-playfair !default;
+// stylelint-enable value-keyword-case
+$font-size-default: 14px !default; // Assumes the browser default,
+$font-size-large: ($font-size-default * 1.75) !default;
+$font-size-small: ($font-size-default * .875) !default;
+$font-size-xxl: 90px !default;
+$font-size-xxl-m: 50px !default;
+$font-size-title: 78px !default;
+$font-size-primary: 60px !default;
+$font-size-body-title: 40px !default;
+$font-size-m:35px !default;
+$font-size-m-mobile:30px !default;
+$font-size-button: 25px !default;
+$font-size-sub-title: 20px !default;
+$font-size-primary-mobile: 34px !default;
+$font-size-body-content: 18px !default;
+$font-size-body-content-mobile: 16px !default;
+// nav bar width
+// offset fot
+$page-max-width: 1600px !default;
+$page-offset-x: 80px !default;
+$page-offset-x-mob: 20px !default;
+$module-margin-default: 70px !default;
+$module-margin-large: 120px !default;
+$module-margin-large-mob: 50px !default;
+$module-margin-default-mob: 50px !default;
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-default: $font-weight-normal !default;
+$line-height-default: 1.5 !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 769px,
+  lg: 992px,
+  xl: 1200px
+) !default;

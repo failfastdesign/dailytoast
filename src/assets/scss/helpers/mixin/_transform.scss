@@ -1,0 +1,26 @@
+@mixin rotate($degrees) {
+    -moz-transform: rotate(#{$degrees}deg);
+    -webkit-transform: rotate(#{$degrees}deg);
+    -o-transform: rotate(#{$degrees}deg);
+    -ms-transform: rotate(#{$degrees}deg);
+    transform: rotate(#{$degrees}deg);
+}
+@mixin transform-origin ($origin) {
+    -webkit-transform-origin: $origin;
+    -moz-transform-origin: $origin;
+    -ms-transform-origin: $origin;
+    transform-origin: $origin;
+}
+@mixin transform($scale: 1, $rotate: 0, $translateX: 0, $translateY: 0) {
+    -moz-transform: scale($scale) rotate($rotate) translateX($translateX) translateY($translateY);
+    -webkit-transform: scale($scale) rotate($rotate) translateX($translateX) translateY($translateY);
+    -o-transform: scale($scale) rotate($rotate) translateX($translateX) translateY($translateY);
+    -ms-transform: scale($scale) rotate($rotate) translateX($translateX) translateY($translateY);
+    transform: scale($scale) rotate($rotate) translateX($translateX) translateY($translateY);
+}
+@mixin translate3d($x, $y, $z) {
+    -webkit-transform: translate3d($x, $y, $z);
+       -moz-transform: translate3d($x, $y, $z);
+         -o-transform: translate3d($x, $y, $z);
+            transform: translate3d($x, $y, $z);
+  }

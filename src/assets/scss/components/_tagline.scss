@@ -1,0 +1,18 @@
+.tagline{
+    margin: 10px 0;
+    font-family: $font-family-primary;
+    z-index: 7;
+    &__text{
+        margin: 0;
+        color: #9B9B9B;
+        font-weight: 200;
+        letter-spacing: 0;
+        text-align: center;
+        @include rem(font-size, 11px);
+        @include rem(line-height, 13px);
+    }
+    &__credit{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

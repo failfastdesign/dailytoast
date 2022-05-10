@@ -1,0 +1,109 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "./assets/fonts" !default;
+
+$icon-stop: "\e904";
+$icon-download: "\e901";
+$icon-linkedin: "\e902";
+$icon-twitter: "\e903";
+$icon-about: "\e91f";
+$icon-home: "\e922";
+$icon-next: "\e923";
+$icon-pause: "\e924";
+$icon-play: "\e925";
+$icon-soundoff: "\e927";
+$icon-soundon: "\e928";
+$icon-prev: "\e92a";
+$icon-share: "\e900";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?p95mwu');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?p95mwu#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?p95mwu') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?p95mwu') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?p95mwu##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stop {
+  &:before {
+    content: $icon-stop;
+  }
+}
+.icon-download {
+  &:before {
+    content: $icon-download;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-about {
+  &:before {
+    content: $icon-about;
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home;
+  }
+}
+.icon-next {
+  &:before {
+    content: $icon-next;
+  }
+}
+.icon-pause {
+  &:before {
+    content: $icon-pause;
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play;
+  }
+}
+.icon-soundoff {
+  &:before {
+    content: $icon-soundoff;
+  }
+}
+.icon-soundon {
+  &:before {
+    content: $icon-soundon;
+  }
+}
+.icon-prev {
+  &:before {
+    content: $icon-prev;
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share;
+  }
+}

@@ -1,0 +1,116 @@
+.button{
+    font-family: $font-family-primary;
+    font-weight: 900;
+    padding: 11px 30px;
+    @include rem(font-size, 25px);
+    @include rem(line-height, 30px);
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    transition: all 0.5s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+    &::before{
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    @include hover-supported(){
+      &::before{
+        background-color: rgba(#FDF0FF,0.4);
+      }
+    }
+    &:active{
+      &::before{
+        background-color: rgba(#6C3D72,0.4);
+      }
+    }
+    &_primary{
+        background-color: $color-button;
+        color: $color-white;
+        min-width: 278px;
+        .icon{
+            display: block;
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+        }
+  }
+  &_lite{
+    background-color: $lite-magenta;
+  }
+	&-icon{
+    // @extend .button;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $magenta;
+    padding: 5px;
+    color: $color-white;
+    &_primary{
+      @extend .button-icon;
+      background-color: $white;
+      color:$magenta;
+    }
+    @include rem(font-size, 16px);
+    &_down{
+      transform: rotate(-90deg);
+    }
+    &_up{
+      transform: rotate(90deg);
+    }
+    &_lite{
+      background-color: $lite-magenta;
+    }
+  }
+  &-next{
+    height: 52px;
+    width: 52px;
+    @include media-breakpoint-down(sm) {
+      margin: 0;
+    }
+  }
+  &-pause{
+    @include media-breakpoint-down(sm) {
+      min-width: 210px;
+      justify-content: flex-start;
+      margin: 0;
+    }
+  }
+  &__text{
+    margin-right: 8px;
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  &__time{
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  &-timer{
+    justify-content: start;
+    padding: 11px 25px;
+    .button__time{
+      width: 120px;
+    }
+  }
+}

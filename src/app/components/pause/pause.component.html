@@ -1,0 +1,127 @@
+<!-- <section class="appmodal" *ngIf="show"> -->
+<div class="backdrop" *ngIf="show">
+  <div class="pause-wrapper" @popupState>
+
+    <section class="pause" >
+      <div class="screenShare">
+        <!-- team -->
+        <div>
+          <div class="content">
+            <div class="content__team">
+              TEAM<span class="content__time">{{elapsedtime | hourhide}}</span>
+            </div>
+          </div>
+          <!-- /team -->
+          <!-- Pause Image -->
+          <figure class="figure">
+            <img [assetloader]="banner" class="figure__image">
+          </figure>
+          <!-- /Pause Image -->
+          <!-- participants-time -->
+          <div class="participants" [ngStyle]="{color:color}">
+            {{averageTime | hourhide}} PER PARTICIPANT
+          </div>
+          <!-- /participants-time -->
+          <!-- toasts -->
+          <ul class="toast">
+            <!-- [ngClass]="'anim'" -->
+            <li class="toast__item" *ngFor="let toast of objectValues(scores)" [ngClass]="{'active' : toggle}">
+              <figure class="toast__figure">
+                <img [assetloader]="toast['bread']" class="toast__figure-image">
+              </figure>
+              <div class="toast__type">
+                {{toast['count']}}<span>{{toast['label']}}</span>
+              </div>
+            </li>
+          </ul>
+          <!-- /toasts -->
+          <!-- toast-status -->
+          <div class="text" [innerHTML]="message"></div>
+          <!-- /toast-status -->
+        </div>
+      </div>
+      <!-- /button-group -->
+      <div class="buttons" data-html2canvas-ignore= true>
+        <app-button label="QUIT" [btnSound]='["Button-Big.mp3"]' type="button" classes="button_lite button_primary"
+          [icon]="true" [iconClass]='["icon", "icon-stop"]' (onClick)="quit()"></app-button>
+        <app-button label="RESUME" [btnSound]='["Button-Up.mp3"]' type="button" classes="button_primary buttons__button"
+          [icon]="[true]" iconClass="icon icon-play" (onClick)="resume()"></app-button>
+      </div>
+      <!-- /button-group -->
+
+      <!-- share -->
+
+      <ul class="share" data-html2canvas-ignore= true>
+        <li>
+          <app-button [type]='["button"]' [classes]='["button-icon button-icon_lite"]' [icon]='[true]'
+            [iconClass]='["icon-linkedin"]' [btnSound]='["Button-Up.mp3"]' (onClick)="shareLinkedIn()"></app-button>
+        </li>
+        <li>
+          <app-button [type]='["button"]' [classes]='["button-icon button-icon_lite"]' [icon]='[true]'
+            [iconClass]='["icon-twitter"]' (onClick)="shareTwitter()" [btnSound]='["Button-Up.mp3"]'></app-button>
+        </li>
+        <li>
+          <app-button [type]='["button"]' [classes]='["button-icon button-icon_lite"]' [icon]='[true]'
+            [iconClass]='["icon-download"]' (click)="download()" [btnSound]='["Button-Up.mp3"]'></app-button>
+        </li>
+        <li>
+          <app-button [type]='["button"]' [classes]='["button-icon button-icon_lite"]'
+            [btnSound]='[this.isSound?"Button-Up.mp3":"Button-Down.mp3"]' [icon]='[true]'
+            [iconClass]='[this.isSound?"icon-soundon":"icon-soundoff"]' (onClick)=soundSwitch($event)></app-button>
+        </li>
+      </ul>
+      <!-- /share -->
+
+    </section>
+    <div class="footer__logo" data-html2canvas-ignore= true>
+      <a class="logo-link" href="https://www.failfast.design/" target="_blank"><img
+          src="assets/images/bt_failfast.svg" alt="logo" class="footer__logo-image"></a>
+    </div>
+  </div>
+
+  <div id="download">
+    <img #canvas>
+    <a #downloadLink></a>
+    <div class="hiden-download">
+      <div class="screenShare screenshare_hidden" #screen>
+        <!-- team -->
+        <div>
+          <div class="content">
+            <div class="content__team">
+              TEAM<span class="content__time">{{elapsedtime | hourhide}}</span>
+            </div>
+          </div>
+          <!-- /team -->
+          <!-- Pause Image -->
+          <figure class="figure">
+            <img [assetloader]="banner" class="figure__image">
+          </figure>
+          <!-- /Pause Image -->
+          <!-- participants-time -->
+          <div class="participants" [ngStyle]="{color:color}">
+            {{averageTime | hourhide}} PER PARTICIPANT
+          </div>
+          <!-- /participants-time -->
+          <!-- toasts -->
+          <ul class="toast">
+            <!-- [ngClass]="'anim'" -->
+            <li class="toast__item" *ngFor="let toast of objectValues(scores)" [ngClass]="{'active' : toggle}">
+              <figure class="toast__figure">
+                <img [assetloader]="toast['bread']" class="toast__figure-image">
+              </figure>
+              <div class="toast__type">
+                {{toast['count']}}<span>{{toast['label']}}</span>
+              </div>
+            </li>
+          </ul>
+          <!-- /toasts -->
+          <!-- toast-status -->
+          <div class="text" [innerHTML]="message"></div>
+          <!-- /toast-status -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- </section> -->

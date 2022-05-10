@@ -1,0 +1,119 @@
+@import '../../../assets/scss/helpers/variables.scss';
+@import '../../../assets/scss/vendor/bootstrap/scss/bootstrap.scss';
+.banner{
+    width: 100%;
+    padding:40px 0 90px 0;
+    background-color: $background-loader;
+    position:relative;
+    z-index: -1;
+    &__icons{
+        list-style: none;
+        margin-right:40px;
+        position:absolute;
+        right: 0;
+    }
+    &__item{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $lite-magenta;
+        color: $white;
+        margin-right:10px;
+        .icon{
+            font-size: 21px;
+        }
+    }
+    &__wrapper{
+        max-width: 850px;
+        margin: 56px auto 0;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    &__title-wrapper{
+        flex: 0 0 65%;
+    }
+    &__title{
+        font-size: $font-size-primary;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 50px;
+        color: $color-title;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__subtitle{
+        color: $color-sub-title;
+        font-size: $font-size-sub-title;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-transform: lowercase;
+        padding-right: 10px;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+    &__img-title{
+        min-width: 147px;
+        margin-bottom: 5px;
+    }
+    &__image-wrapper{
+        flex: 0 0 35%;
+        min-height: 195px;
+        position: relative;
+    }
+    &__image{
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    //Pause page
+
+    &__pause{
+        width: 100%;
+        height: 70vh;
+        background-color: $cyan;
+    }
+    
+    @include media-breakpoint-down(md) {
+        padding:20px;
+        &__icons{
+            margin: 20px;
+        }
+        &__wrapper{
+            flex-direction: column;
+            width: 100%;
+            margin-top:45px;
+        }
+        &__title-wrapper{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        &__title{
+            font-size: $font-size-primary-mobile;
+            line-height: 30px;
+            letter-spacing: normal;
+            margin-bottom:5px;
+            padding-top: 32px;
+            br{
+                display: none;
+            }
+            
+        }
+        &__image-wrapper{
+            width: 100%;
+            min-height: 160px;
+        }
+        &__image{
+            right: 0;
+            max-width: 182px;
+        }
+        &__description{
+            font-size: $font-size-body-content-mobile;
+            line-height: 19px;
+        }
+        &__pause{
+            display: none;
+        }
+    }
+}

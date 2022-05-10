@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    z-index: 3;
+    &-wrap {
+        align-self: start;
+        justify-self: start;
+        margin-bottom: auto;
+        display: flex;
+        // flex-direction:row;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        right: 25px;
+    }
+    &__toolbar{
+      display: flex;
+      align-self: flex-end;
+      margin-left: auto;
+      padding: 5px;
+      color: $color-white;
+    }
+    &-wrap {
+      &_inverse{
+        z-index: 4;
+        .button{
+          color: $lite-magenta;
+          background-color: $color-white;
+          &::before{
+            content: none;
+          }
+          @include hover-supported(){
+            color: #f8c7fb;
+          }
+          &:active{
+            color:#be7fc3;
+          }
+        }
+        .button-about{
+          opacity: 0;
+          cursor: default;
+          pointer-events: none;
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 5px;
+        z-index: 3;
+      }
+    }
+
+
+}

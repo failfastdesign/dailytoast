@@ -1,0 +1,27 @@
+// "$point: xl" for big screens as requested from 1920px.
+@mixin media-query($point) {
+    $bp-xxl: "(min-width: 1920px)";
+    $bp-xl: "(min-width: 1680px)";
+    $bp-lg: "(min-width: 1024px) and (max-width: 1440px)";
+    $bp-lg-tab: "(min-width: 1200px)";
+    @if $point==xl {
+        @media #{$bp-xl} {
+            @content;
+        }
+    }
+    @else if $point==xxl {
+        @media #{$bp-xxl} {
+            @content;
+        }
+    }
+    @else if $point==lg {
+        @media #{$bp-lg} {
+            @content;
+        }
+    }
+    @else if $point==tab {
+        @media #{$bp-lg-tab} {
+            @content;
+        }
+    }
+}

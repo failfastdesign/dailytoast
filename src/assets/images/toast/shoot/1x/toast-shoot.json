@@ -1,0 +1,272 @@
+{
+	"textures": [
+		{
+			"image": "toast-shoot.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 3624,
+				"h": 562
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Toast-Shot0200.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0201.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 303,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0203.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 605,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0204.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 907,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0205.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0206.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1511,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0207.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 1813,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0208.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2115,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0209.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2417,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0210.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 2719,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0211.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3021,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				},
+				{
+					"filename": "Toast-Shot0212.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 560
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 560
+					},
+					"frame": {
+						"x": 3323,
+						"y": 1,
+						"w": 300,
+						"h": 560
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:394ae8ccd7e820eb5edd9e63fe4d8ae2:f93f5d98f5754ccde3cdeefd667612c9:c4937235f9cda49d17ce8bad53873e3f$"
+	}
+}

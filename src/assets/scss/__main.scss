@@ -1,0 +1,12 @@
+
+/***************************************************************************
+    ! Import all the master files from each folder.
+    ! Name the master file with '__' double underscore and partials with '_' single underscore.
+    ! Don't write code|style here and master files, it's only for importing the partials.
+***************************************************************************/
+@import "./helpers/_helpers-master";
+@import "./vendor/_vendor-master";
+@import "./layout/_layout-master";
+@import "./base/_base-master";
+@import "./typography/_typography-master";
+@import "./components/_components-master";
